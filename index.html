@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>240912_Task_JS_Programmer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- Toolbar -->
      <div class="toolbar">
-        <button onclick="addRow()">Add Row</button>
-        <button onclick="moveRowUp()">Move Up</button>
-        <button onclick="moveRowDown()">Move Down</button>
-        <button onclick="deleteRow()">Delete Row</button>
-        <button onclick="refreshData()">Refresh</button>
-        <button onclick="saveData()">Save</button>
+        <button class="icon-button" onclick="addRow()"><i class="fa fa-plus"></i></button>
+        <button class="icon-button" onclick="moveRowUp()"><i class="fa fa-arrow-up"></i></button>
+        <button class="icon-button" onclick="moveRowDown()"><i class="fa fa-arrow-down"></i></button>
+        <button class="icon-button" onclick="deleteRow()"><i class="fa fa-trash"></i></button>
+        <button class="icon-button" onclick="refreshData()"><i class="fa fa-refresh"></i></button>
+        <button class="icon-button" onclick="saveData()"><i class="fa fa-save"></i></button>
      </div>
 
      <!-- Table to display chemical data -->
