@@ -22,7 +22,7 @@ th{
     background-color: #f2f2f2;
 }
 
-tr.selected{
+.selected{
     background-color: #d1e7fd;
 }
 
